@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Digital_watch" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_color</item>
+        <item name="android:windowBackground">@color/bg_color</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+    </style>
+
+    <style name="Theme.Digital_watch" parent="Base.Theme.Digital_watch" />
+</resources>
